@@ -9,11 +9,11 @@ class MapsService {
   static Future<void> ensureConnection() async {
     if (_connection == null || _connection!.isClosed) {
       _connection = PostgreSQLConnection(
-        '212.174.82.41', // Sunucu adresi
-        5432, // Port numarası
-        'test_db', // Veritabanı adı
-        username: 'postgres', // Kullanıcı adı
-        password: 'StrongDBPassword', // Şifre
+        '', // Sunucu adresi
+        , // Port numarası
+        '', // Veritabanı adı
+        username: '', // Kullanıcı adı
+        password: '', // Şifre
       );
       await _connection!.open();
     }
