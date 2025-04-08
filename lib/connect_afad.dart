@@ -21,11 +21,11 @@ class DatabaseHelper {
   static Future<void> openConnection() async {
     try {
       _connection = PostgreSQLConnection(
-        '212.174.82.41', // Sunucu adresi
-        5432, // Port numarası
-        'test_db', // Veritabanı adı
-        username: 'postgres', // Kullanıcı adı
-        password: 'StrongDBPassword', // Şifre
+        '', // Sunucu adresi
+        , // Port numarası
+        '', // Veritabanı adı
+        username: '', // Kullanıcı adı
+        password: '', // Şifre
         timeoutInSeconds: 1800, // 30 dakika
         queryTimeoutInSeconds: 1800
       );
