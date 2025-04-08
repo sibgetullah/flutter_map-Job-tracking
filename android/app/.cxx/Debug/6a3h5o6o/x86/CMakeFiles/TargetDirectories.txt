@@ -1,0 +1,2 @@
+C:/Users/lokal/Desktop/afad/afad/android/app/.cxx/Debug/6a3h5o6o/x86/CMakeFiles/edit_cache.dir
+C:/Users/lokal/Desktop/afad/afad/android/app/.cxx/Debug/6a3h5o6o/x86/CMakeFiles/rebuild_cache.dir
